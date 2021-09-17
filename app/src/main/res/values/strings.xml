@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MAD  NEW</string>
+    <string-array name="districts">
+        <item>Colombo</item>
+        <item>Gampaha</item>
+        <item>Matara</item>
+    </string-array>
 </resources>
