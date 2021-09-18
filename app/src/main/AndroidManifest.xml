@@ -9,10 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADNEW">
-        <activity
-            android:name=".Location"
-            android:label="@string/title_activity_location"
-            android:theme="@style/Theme.MADNEW.NoActionBar"></activity>
         <activity android:name=".Location_Page" />
         <activity android:name=".MainActivity">
             <intent-filter>
