@@ -2,13 +2,10 @@ package com.example.madnew;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity  {
@@ -24,7 +21,7 @@ public class MainActivity extends AppCompatActivity  {
 
 
         login = findViewById(R.id.Login);
-        signup = findViewById(R.id.register);
+        signup = findViewById(R.id.Loginbtn);
 
 
         login.setOnClickListener(new View.OnClickListener(){
@@ -43,6 +40,9 @@ public class MainActivity extends AppCompatActivity  {
         signup.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+
+
+                Toast.makeText(MainActivity.this, "Resister has been clicked", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(MainActivity.this , signup.class);
                 startActivity(intent);
