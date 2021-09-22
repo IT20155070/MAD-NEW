@@ -23,4 +23,15 @@
     <string name="contactUs">Contact Us</string>
     <string name="policy">Privacy Policy</string>
     <string name="aboutUs">About Us</string>
+
+
+    <string name="redvelvet"> One PCS-LKR 200.00</string>
+    <string name="chocolate">One PCS-LKR 180.00</string>
+    <string name="vanilla">One PCS-150.00</string>
+    <string name="kitkat">One PCS-LKR 325.00</string>
+    <string name="stawberry">One PCS-LKR 275.00</string>
+    <string name="galaxy">One PCS-LKR 200.00</string>
+    <string name="cherry">One PCS-LKR 270.00</string>
+    <string name="heaven">One PCS-LKR 250.00</string>
+
 </resources>
