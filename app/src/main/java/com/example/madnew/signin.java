@@ -43,6 +43,8 @@ public class signin extends AppCompatActivity {
                   Boolean result = myDB.checkemailpassword(Email,Password);
                   if(result==true){
                       Toast.makeText(signin.this, "Login Successful!!!", Toast.LENGTH_SHORT).show();
+                      Intent book = new Intent(signin.this,Book.class);
+                      startActivity(book);
                   }
                   else{
                       Toast.makeText(signin.this, "Invalid Credentials!!!", Toast.LENGTH_SHORT).show();
