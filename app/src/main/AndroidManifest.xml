@@ -9,9 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADNEW">
-
-
-        <activity android:name=".Home">
+        <activity
+            android:name=".SummaryActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".infoActivity1"
+            android:exported="true" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Home" />
+        <activity android:name=".infoActivity" />
+        <activity android:name=".signup" />
+        <activity android:name=".signin" />
+        <activity android:name=".Delivery">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

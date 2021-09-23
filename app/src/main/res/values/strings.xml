@@ -34,4 +34,16 @@
     <string name="cherry">One PCS-LKR 270.00</string>
     <string name="heaven">One PCS-LKR 250.00</string>
 
+
+    <string name="pizza1">One PCS-LKR 400.00</string>
+    <string name="pizza2">One PCS-LKR 600.00</string>
+    <string name="pizza3">One PCS-LKR 1000.00</string>
+    <string name="pizza4">One PCS-LKR 2000.00</string>
+    <string name="Rice1">One PCS-LKR 500.00</string>
+    <string name="Rice2">One PCS-LKR 800.00</string>
+    <string name="Rice3">One PCS-LKR 600.00</string>
+    <string name="Kottu1">One PCS-LKR 400.00</string>
+    <string name="Kottu2">One PCS-LKR 500.00</string>
+
+
 </resources>
