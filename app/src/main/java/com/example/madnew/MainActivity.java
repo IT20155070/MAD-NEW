@@ -20,10 +20,6 @@ public class MainActivity extends AppCompatActivity  {
         getSupportActionBar().hide();
 
 
-        login = findViewById(R.id.Login);
-        signup = findViewById(R.id.Loginbtn);
-
-
         login.setOnClickListener(new View.OnClickListener(){
            @Override
            public void onClick(View v){

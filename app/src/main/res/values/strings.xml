@@ -14,4 +14,37 @@
 
     <string name="hello_first_fragment">Please Select Your location.</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="aradya_dewhas_">Aradya Dewhas</string>
+    <string name="contact">contact_no</string>
+    <string name="add">address</string>
+    <string name="addre">Address</string>
+    <string name="full_">full_name</string>
+    <string name="em">email</string>
+    <string name="upd">update</string>
+    <string name="contact_n">contact No</string>
+    <string name="fullname">Fullnameuser</string>
+    <string name="to_1">TODO</string>
+    <string name="to_2">TODO</string>
+    <string name="scribe_the_">scribe_the_channel</string>
+    <string name="aradya_dew">Aradya Dewhas</string>
+    <string name="can">cancel</string>
+    <string name="aradya_de">Aradya_Dewhas</string>
+    <string name="contact_">Contact Us</string>
+    <string name="mes_">Message</string>
+    <string name="emai_">Email</string>
+    <string name="conta_">Contact</string>
+    <string name="name_">Name</string>
+    <string name="your_messa">Your Message</string>
+    <string name="sub_">Submit</string>
+    <string name="del_">Delete</string>
+    <string name="add_the_">Add the Information</string>
+    <string name="cont_">Contact No</string>
+    <string name="your_mess">Your Message</string>
+    <string name="contact_u">Contact Us</string>
+    <string name="submi">Submit</string>
+    <string name="con_">Contact No</string>
+    <string name="messa">Message</string>
+    <string name="sub">Submit</string>
+    <string name="full_na">Full Name</string>
+    <string name="ema">Email</string>
 </resources>

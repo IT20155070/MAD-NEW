@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADNEW">
-        <activity android:name=".signin"></activity>
-        <activity android:name=".signup"></activity>
-
+        <activity
+            android:name=".Book_Wedding"
+            android:exported="true" />
+        <activity
+            android:name=".My_Profile"
+            android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
