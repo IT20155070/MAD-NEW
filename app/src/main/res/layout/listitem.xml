@@ -42,16 +42,17 @@
                 android:layout_marginLeft="12dp"
                 android:id="@+id/description"
                 android:layout_toRightOf="@+id/coffeeImage"/>
+
             <TextView
+                android:id="@+id/coffeeName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="5dp"
-                android:id="@+id/coffeeName"
-                android:textStyle="italic"
-                android:textSize="26sp"
                 android:layout_toRightOf="@+id/coffeeImage"
-                tools:text="Green Tea"/>
+                android:textSize="26sp"
+                android:textStyle="italic"
+                tools:text="Green Tea" />
 
             <TextView
                 android:layout_width="wrap_content"

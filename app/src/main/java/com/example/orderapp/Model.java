@@ -21,10 +21,12 @@ public class Model {
     }
 
     public String getmDrinkDetail() {
+
         return mDrinkDetail;
     }
 
     public int getmDrinkPhoto() {
+
         return mDrinkPhoto;
     }
 }

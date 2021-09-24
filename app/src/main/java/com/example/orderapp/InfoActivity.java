@@ -49,7 +49,7 @@ public class InfoActivity extends AppCompatActivity implements LoaderManager.Loa
 
         // setting the name of drink
 
-        drinnkName.setText("Green Tea");
+        drinnkName.setText("Rice and Curry ");
 
         addtoCart.setOnClickListener(new View.OnClickListener() {
             @Override
