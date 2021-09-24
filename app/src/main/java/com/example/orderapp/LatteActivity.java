@@ -49,7 +49,7 @@ public class LatteActivity extends AppCompatActivity implements LoaderManager.Lo
 
         // setting the name of drink
 
-        drinnkName.setText("Lattee Tea");
+        drinnkName.setText("Chicken Fried Rice");
         imageView.setImageResource(R.drawable.late);
 
         addtoCart.setOnClickListener(new View.OnClickListener() {
