@@ -13,14 +13,14 @@
 
     <color name="backgroundopacity">#AB363535</color>
 
-    <color name="colorPrimary">#2BCC6F</color>
+    <color name="colorPrimary">#ff8800</color>
     <color name="colorPrimaryDark">#2BCC6F</color>
     <color name="colorAccent">#333333</color>
     <color name="colorPrimaryLight">#E9F8F1</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBackground">#EBEBEB</color>
-    <color name="colorTrendingStart">#00B09B</color>
-    <color name="colorTrendingEnd">#90BD17</color>
+    <color name="colorTrendingStart">#ff8800</color>
+    <color name="colorTrendingEnd">#ff4444</color>
     <color name="colorPrimaryLightEnd">#96C93D</color>
     <color name="colorDivider">#D6D6D6</color>
 
