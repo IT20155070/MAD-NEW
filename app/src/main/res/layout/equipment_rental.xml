@@ -94,75 +94,7 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:id="@+id/LayoutMyBuffet"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="472dp"
-                android:background="@drawable/white_rectangle_background"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="15dp"
-                app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/LayoutWedding"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="8dp"
-                    android:contentDescription="@string/app_name"
-                    android:padding="8dp"
-                    android:src="@drawable/mybuffet"
-                    app:srcCompat="@drawable/chair" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Chairs"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/LayoutWedding"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="472dp"
-                android:background="@drawable/white_rectangle_background"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="15dp"
-                app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toStartOf="@id/LayoutMyBuffet"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="8dp"
-                    android:contentDescription="@string/app_name"
-                    android:padding="8dp"
-                    android:src="@drawable/wedding_buffet"
-                    app:srcCompat="@drawable/tent" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Huts"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/LayoutWedding"
+                android:id="@+id/LayoutNescafe1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="272dp"
@@ -171,7 +103,6 @@
                 android:orientation="vertical"
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toStartOf="@id/LayoutMyBuffet"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -196,7 +127,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/LayoutMyBuffet"
+                android:id="@+id/LayoutBuffetTable"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="272dp"
@@ -206,7 +137,6 @@
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/LayoutWedding"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
@@ -235,7 +165,7 @@
                 android:layout_height="879dp"
                 app:srcCompat="@drawable/bannerequipment"
                 tools:layout_editor_absoluteX="6dp"
-                tools:layout_editor_absoluteY="-315dp" />
+                tools:layout_editor_absoluteY="-316dp" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

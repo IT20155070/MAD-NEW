@@ -106,7 +106,7 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:id="@+id/LayoutWedding"
+                android:id="@+id/LayoutNescafe1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -115,7 +115,7 @@
                 android:orientation="vertical"
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toStartOf="@id/LayoutMyBuffet"
+                app:layout_constraintEnd_toStartOf="@id/LayoutBuffetTable"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -139,7 +139,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/LayoutMyBuffet"
+                android:id="@+id/LayoutBuffetTable"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -149,7 +149,7 @@
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/LayoutWedding"
+                app:layout_constraintStart_toEndOf="@id/LayoutNescafe1"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
@@ -181,9 +181,9 @@
                 android:orientation="vertical"
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toStartOf="@id/LayoutMyBuffet"
+                app:layout_constraintEnd_toStartOf="@id/LayoutBuffetTable"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/LayoutWedding">
+                app:layout_constraintTop_toBottomOf="@id/LayoutNescafe1">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -215,8 +215,8 @@
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/LayoutWedding"
-                app:layout_constraintTop_toBottomOf="@id/LayoutMyBuffet">
+                app:layout_constraintStart_toEndOf="@id/LayoutNescafe1"
+                app:layout_constraintTop_toBottomOf="@id/LayoutBuffetTable">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -244,7 +244,7 @@
                 android:background="@drawable/offers_background"
                 android:padding="20dp"
                 app:layout_constraintEnd_toEndOf="@id/LayoutEquipment"
-                app:layout_constraintStart_toStartOf="@id/LayoutWedding"
+                app:layout_constraintStart_toStartOf="@id/LayoutNescafe1"
                 app:layout_constraintTop_toBottomOf="@id/LayoutDelivery">
 
                 <TextView
