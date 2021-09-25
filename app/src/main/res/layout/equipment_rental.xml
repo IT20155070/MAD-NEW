@@ -66,7 +66,8 @@
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:textColor="@color/colorAccent"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <ImageView
                 android:layout_width="40dp"
@@ -94,10 +95,12 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:id="@+id/LayoutNescafe1"
+                android:id="@+id/LayoutNescafe"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="272dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="260dp"
                 android:background="@drawable/white_rectangle_background"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -130,7 +133,9 @@
                 android:id="@+id/LayoutBuffetTable"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="272dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
                 android:background="@drawable/white_rectangle_background"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -163,15 +168,83 @@
                 android:id="@+id/imageView4"
                 android:layout_width="398dp"
                 android:layout_height="879dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/bannerequipment"
-                tools:layout_editor_absoluteX="6dp"
                 tools:layout_editor_absoluteY="-316dp" />
+
+            <LinearLayout
+                android:id="@+id/LayoutTents"
+                android:layout_width="168dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/white_rectangle_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LayoutNescafe">>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="108dp"
+                    android:layout_height="106dp"
+                    app:srcCompat="@drawable/tent"
+                    tools:layout_editor_absoluteY="42dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Tents"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LayoutChairs"
+                android:layout_width="168dp"
+                android:layout_height="168dp"
+                android:background="@drawable/white_rectangle_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.421"
+                app:layout_constraintStart_toEndOf="@+id/LayoutTents"
+                app:layout_constraintTop_toBottomOf="@+id/LayoutBuffetTable"
+                app:layout_constraintVertical_bias="0.928"><![CDATA[>
+
+                ]]>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="118dp"
+                    android:layout_height="118dp"
+                    app:srcCompat="@drawable/chair" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="138dp"
+                    android:layout_height="29dp"
+                    android:gravity="center"
+                    android:text="Chairs"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
