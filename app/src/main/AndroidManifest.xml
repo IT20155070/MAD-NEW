@@ -11,7 +11,7 @@
         android:theme="@style/Theme.MADNEW">
 
 
-        <activity android:name=".Home">
+        <activity android:name=".RCheckout">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
