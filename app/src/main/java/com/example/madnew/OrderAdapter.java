@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> {
@@ -50,6 +51,12 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
         return modelList.size();
     }
 
+    public void filterList(ArrayList<Model> filteredList){
+        modelList = filteredList;
+        notifyDataSetChanged();
+
+    }
+
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         TextView cupcakeName,cupcakeDetails;
@@ -73,6 +80,41 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
             if(position == 0){
                 Intent intentinfo = new Intent(context, infoActivity.class);
                 context.startActivity(intentinfo);
+            }
+
+            if(position == 1){
+                Intent intentinfo2 = new Intent(context, chocolateActivity.class);
+                context.startActivity(intentinfo2);
+            }
+
+            if(position == 2){
+                Intent intentinfo3 = new Intent(context, vanila.class);
+                context.startActivity(intentinfo3);
+            }
+
+            if(position == 3){
+                Intent intentinfo4 = new Intent(context, kitkat.class);
+                context.startActivity(intentinfo4);
+            }
+
+            if(position == 4){
+                Intent intentinfo5 = new Intent(context, stawberry.class);
+                context.startActivity(intentinfo5);
+            }
+
+            if(position == 5){
+                Intent intentinfo6 = new Intent(context, galaxy.class);
+                context.startActivity(intentinfo6);
+            }
+
+            if(position == 6){
+                Intent intentinfo7 = new Intent(context, cherry.class);
+                context.startActivity(intentinfo7);
+            }
+
+            if(position == 7){
+                Intent intentinfo8 = new Intent(context, heaven.class);
+                context.startActivity(intentinfo8);
             }
 
         }

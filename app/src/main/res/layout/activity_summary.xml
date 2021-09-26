@@ -7,36 +7,76 @@
     tools:context=".SummaryActivity">
 
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true">
 
 
-        <RelativeLayout
+        <TextView
+            android:id="@+id/OrderSummary"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center"
+            android:text="ORDER SUMMARY"
+            android:textColor="@color/dark_orange"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:textSize="30sp"
-                android:id="@+id/orderSummary"
-                android:text="ORDER SUMMARY"/>
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="397dp"
+            android:layout_height="509dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/colorWhite"
+            android:paddingTop="20dp">
 
 
+        </ListView>
 
-            <ListView
-                android:layout_width="match_parent"
-                android:paddingTop="40dp"
-                android:layout_height="match_parent"
-                android:id="@+id/list"/>
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="42dp"
+            android:layout_toEndOf="@+id/confirm"
+            android:layout_toRightOf="@+id/confirm"
+
+            android:onClick="showAlterDialog"
+            android:text="Delete Order"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="42dp"
+            android:text="Confirm Order"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
 
-        </RelativeLayout>
-
-
-
-
-
+    </RelativeLayout>
 
 
 </RelativeLayout>

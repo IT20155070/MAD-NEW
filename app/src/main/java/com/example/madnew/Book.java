@@ -5,6 +5,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.widget.EditText;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +22,30 @@ public class Book extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book);
+
+        getSupportActionBar().setTitle("CUP CAKES");
+        //Search
+        EditText editText = findViewById(R.id.edittext);
+
+        editText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+                filter(s.toString());
+
+            }
+        });
+
 
         modelList = new ArrayList<>();
         modelList.add(new Model("RED VELVET CUPCAKE", getString(R.string.redvelvet), R.drawable.redvelvate));
@@ -38,6 +65,21 @@ public class Book extends AppCompatActivity {
         recyclerView.setAdapter(mAdapter);
 
 
+    }
+
+
+    private void filter(String text){
+        ArrayList<Model> filteredList = new ArrayList<>();
+
+        for(Model item: modelList){
+
+            if(item.getCupcakeName().toLowerCase().contains(text.toLowerCase())){
+                filteredList.add(item);
+
+            }
+        }
+
+        mAdapter.filterList(filteredList);
     }
 
 }

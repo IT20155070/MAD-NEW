@@ -6,9 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".Book">
 
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backgroundeditview"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="search"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:id="@+id/recycler_view"/>
+        android:id="@+id/recycler_view"
+        android:layout_width="388dp"
+        android:layout_height="649dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="70dp"
+
+        android:layout_marginBottom="0dp" />
 
 </RelativeLayout>

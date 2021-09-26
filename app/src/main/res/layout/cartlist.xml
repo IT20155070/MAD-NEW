@@ -53,15 +53,15 @@
 
     <TextView
         android:id="@+id/hasDes"
-        android:layout_width="153dp"
+        android:layout_width="197dp"
         android:layout_height="wrap_content"
 
 
         android:layout_marginStart="170dp"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="87dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:text="has desiccated: "
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -80,51 +80,8 @@
         android:layout_marginRight="24dp"
         android:gravity="center"
         android:text="LKR 200"
-        android:textColor="@color/black" />
-
-    <EditText
-        android:id="@+id/sumName"
-        android:layout_width="371dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/hasChips"
-        android:layout_marginTop="30dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name: "
-        android:textSize="18sp" />
-
-    <EditText
-        android:id="@+id/sumaddress"
-        android:layout_width="382dp"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/sumName"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        android:text="Address: "
-        android:textSize="18sp" />
-
-    <EditText
-        android:id="@+id/sumPhone"
-        android:layout_width="376dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/sumName"
-        android:layout_marginTop="35dp"
-        android:ems="10"
-        android:inputType="phone"
-        android:text="Phone No: "
-        android:textSize="18sp" />
-
-    <EditText
-        android:id="@+id/Sumdate"
-        android:layout_width="374dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/sumaddress"
-        android:layout_marginTop="35dp"
-        android:ems="10"
-        android:inputType="date"
-        android:text="Date"
-        android:textSize="18sp" />
+        android:textColor="@color/red_light"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

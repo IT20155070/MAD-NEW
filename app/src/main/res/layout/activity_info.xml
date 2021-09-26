@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".infoActivity">
 
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
     <RelativeLayout
         android:layout_width="479dp"
         android:layout_height="854dp"
@@ -45,12 +43,14 @@
 
         <Button
             android:id="@+id/addtocart"
-            android:layout_width="396dp"
+            android:layout_width="330dp"
             android:layout_height="58dp"
             android:layout_below="@+id/descriptioninfo"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="237dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
             android:layout_marginBottom="10dp"
             android:background="#3F51B5"
             android:text="Add to Order"
@@ -82,19 +82,19 @@
             android:layout_marginStart="18dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="-1dp"
-            android:text="Add Extra Desiccated LRK 20.00"
+            android:text="Add Extra Desiccated LRK 10.00"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/cupcakePrice"
-            android:layout_width="wrap_content"
+            android:layout_width="115dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/imageViewInfo"
 
-            android:layout_marginStart="240dp"
-            android:layout_marginLeft="240dp"
-            android:layout_marginTop="83dp"
-            android:text="LRK 200.00 per cup"
+            android:layout_marginStart="270dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="82dp"
+            android:text="Price"
             android:textColor="@android:color/holo_red_light"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -135,60 +135,6 @@
             android:textStyle="bold" />
 
 
-        <EditText
-            android:id="@+id/PersonName"
-            android:layout_width="346dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/adddes"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name:-" />
-
-        <EditText
-            android:id="@+id/homeaddress"
-            android:layout_width="347dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="597dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:inputType="textPostalAddress"
-            android:text="Address:-" />
-
-        <EditText
-            android:id="@+id/phoneno"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="642dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:inputType="phone"
-            android:text="Phone No:-" />
-
-        <EditText
-            android:id="@+id/Date"
-            android:layout_width="347dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="688dp"
-            android:ems="10"
-            android:inputType="date"
-            android:text="Date:-" />
-
         <TextView
             android:id="@+id/descriptioninfo"
             android:layout_width="wrap_content"
@@ -206,7 +152,7 @@
 
 
     </RelativeLayout>
-</ScrollView>
+
 
 
 

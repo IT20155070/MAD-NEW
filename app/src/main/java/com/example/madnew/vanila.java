@@ -2,12 +2,10 @@ package com.example.madnew;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
 import android.app.LoaderManager;
 import android.content.ContentValues;
 import android.content.CursorLoader;
 import android.content.Intent;
-
 import android.content.Loader;
 import android.database.Cursor;
 import android.net.Uri;
@@ -15,7 +13,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -23,13 +20,12 @@ import android.widget.Toast;
 
 import com.example.madnew.Database.OrderContract;
 
-
-public class infoActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
+public class vanila extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
     ImageView imageView;
     ImageButton plusquantity, minusquantity;
     TextView quantitynumber, cupcakeName, cupcakePrice;
-    //EditText PersonName, homeaddress, phoneno, Date;
+
     CheckBox addchips, adddes;
     Button addtoOrder;
     int quantity;
@@ -56,12 +52,13 @@ public class infoActivity extends AppCompatActivity implements LoaderManager.Loa
         addtoOrder = findViewById(R.id.addtocart);
         addchips = findViewById(R.id.addchips);
         adddes = findViewById(R.id.adddes);
-        cupcakeName.setText("RED VELVET");
+        cupcakeName.setText("VANILLA");
+        imageView.setImageResource(R.drawable.vanilla);
 
         addtoOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent sumintent = new Intent(infoActivity.this,SummaryActivity.class);
+                Intent sumintent = new Intent(vanila.this,SummaryActivity.class);
                 startActivity(sumintent);
 
                 SaveCart();
@@ -71,14 +68,20 @@ public class infoActivity extends AppCompatActivity implements LoaderManager.Loa
         plusquantity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int basePrice = 200;
-                    quantity++;
-                    displayQuantity();
-                    int cupcakPrice = basePrice * quantity;
-                    String setnewPrice = String.valueOf(cupcakPrice);
-                    cupcakePrice.setText(setnewPrice);
-                    int ifcheckbox = CalculatePrice(addchips, adddes);
-                    cupcakePrice.setText("LKR " + ifcheckbox);
+                int basePrice = 150;
+
+
+                quantity++;
+                displayQuantity();
+                int cupcakPrice = basePrice * quantity;
+                String setnewPrice = String.valueOf(cupcakPrice);
+                cupcakePrice.setText(setnewPrice);
+
+
+
+
+                int ifcheckbox = CalculatePrice(addchips, adddes);
+                cupcakePrice.setText("LKR " + ifcheckbox);
 
 
 
@@ -91,10 +94,10 @@ public class infoActivity extends AppCompatActivity implements LoaderManager.Loa
             @Override
             public void onClick(View v) {
 
-                int basePrice = 200;
+                int basePrice = 150;
 
                 if(quantity == 0){
-                    Toast.makeText(infoActivity.this, "cant decrease quantity < 4", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(vanila.this, "cant decrease quantity < 4", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     quantity--;
@@ -161,7 +164,7 @@ public class infoActivity extends AppCompatActivity implements LoaderManager.Loa
 
     private int CalculatePrice(CheckBox addchips, CheckBox adddes) {
 
-        int basePrice = 200;
+        int basePrice = 150;
 
         if(addchips.isChecked()){
 
