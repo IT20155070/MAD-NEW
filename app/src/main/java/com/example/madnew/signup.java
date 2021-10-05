@@ -22,7 +22,6 @@ public class signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        getSupportActionBar().setTitle("Sign Up");
 
         address = (EditText)findViewById(R.id.Address);
         email = (EditText)findViewById(R.id.Email2);

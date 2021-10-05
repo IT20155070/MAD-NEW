@@ -32,13 +32,15 @@
             android:id="@+id/imageMenu"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginEnd="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/ic_menu"
+            android:src="@drawable/icons8_shopping_cart_24px"
+            android:onClick="checkout"
             app:layout_constraintBottom_toBottomOf="@+id/textHello"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textHello"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/icons8_shopping_cart_24px"
             app:tint="@color/colorWhite" />
 
@@ -117,6 +119,7 @@
                     android:layout_height="100dp"
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
+                    android:onClick="coffee_machine"
                     android:padding="8dp"
                     android:src="@drawable/bewarage10"
                     app:srcCompat="@drawable/bewarage10" />
@@ -153,6 +156,7 @@
                     android:layout_height="100dp"
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
+                    android:onClick="buffet"
                     android:padding="8dp"
                     android:src="@drawable/wedding_buffet"
                     app:srcCompat="@drawable/wedding_buffet" />
@@ -172,8 +176,8 @@
                 android:id="@+id/LayoutTents"
                 android:layout_width="168dp"
                 android:layout_height="169dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
                 android:gravity="center"
@@ -222,6 +226,7 @@
                     android:id="@+id/imageView6"
                     android:layout_width="118dp"
                     android:layout_height="118dp"
+                    android:onClick="chair"
                     app:srcCompat="@drawable/chair" />
 
                 <TextView

@@ -7,18 +7,24 @@
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/drawable/banner_background.xml" value="0.3828125" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/drawable/header_background.xml" value="0.3828125" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/drawable/offers_background.xml" value="0.3828125" />
-        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/about_us.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/Nescafe.xml" value="0.3242753623188406" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/about_us.xml" value="0.25" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_book.xml" value="0.28940217391304346" />
-        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_home.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_info.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_listview.xml" value="0.31929347826086957" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_location.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_signin.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/activity_signup.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/buffet_tables.xml" value="0.2890625" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/chairs.xml" value="0.2890625" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/equipment_rental.xml" value="0.25" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/listitem.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/nescafe.xml" value="0.2890625" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/privacy_policy.xml" value="0.26875852660300137" />
-        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/rental_checkout.xml" value="0.25" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/rental_checkout.xml" value="0.5" />
+        <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/layout/tents.xml" value="0.290625" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/menu/navigation_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/mipmap-anydpi-v26/banner.xml" value="0.3828125" />
         <entry key="..\:/Users/senan/AndroidStudioProjects/MAD-NEW/app/src/main/res/mipmap-anydpi-v26/banner_round.xml" value="0.22135416666666666" />
@@ -36,7 +42,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.253125" />
+        <option name="scale" value="0.26875852660300137" />
       </ProjectState>
     </option>
   </component>

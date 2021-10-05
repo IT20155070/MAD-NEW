@@ -13,13 +13,13 @@ public class DBHelper extends SQLiteOpenHelper {
 
 
     public DBHelper(Context context ) {
-        super(context,"Login.db",null,1);
+        super(context,"Login.db",null,6);
     }
 
     @Override
     public void onCreate(SQLiteDatabase myDB) {
         myDB.execSQL("create Table users(email Text primary key,name Text,address Text,phone Text,password Text )");
-
+        myDB.execSQL("create Table checkout ( id INTEGER primary key AUTOINCREMENT,email Text,no_of_guest Text,event Text,days Text,items Text )");
 
     }
 
@@ -27,6 +27,19 @@ public class DBHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase myDB, int oldVersion, int newVersion) {
 
         myDB.execSQL("drop Table if exists users");
+        myDB.execSQL("drop Table if exists checkout");
+
+    }
+
+    public Boolean checkout(String email,String no_of_guest,String event,String days,String items){
+        SQLiteDatabase myDB = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("email",email);
+        contentValues.put("no_of_guest",no_of_guest);
+        contentValues.put("event",event);
+        contentValues.put("days",days);
+        contentValues.put("items",items);
+        return myDB.insert("checkout",null,contentValues) > -1;
     }
 
     public Boolean insertData(String email,String name,String address,String phone,String password){

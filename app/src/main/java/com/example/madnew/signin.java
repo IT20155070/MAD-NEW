@@ -2,6 +2,7 @@ package com.example.madnew;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -16,13 +17,13 @@ public class signin extends AppCompatActivity {
     Button login;
     TextView textViewreg;
     DBHelper myDB;
+    Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
+        context=this;
 
-
-        getSupportActionBar().setTitle("Sign In");
 
         email = (EditText)findViewById(R.id.Email3);
         password = (EditText)findViewById(R.id.Password2);
@@ -42,7 +43,7 @@ public class signin extends AppCompatActivity {
               else{
                   Boolean result = myDB.checkemailpassword(Email,Password);
                   if(result==true){
-                      Toast.makeText(signin.this, "Login Successful!!!", Toast.LENGTH_SHORT).show();
+                      startActivity(new Intent(context,Home.class));
                   }
                   else{
                       Toast.makeText(signin.this, "Invalid Credentials!!!", Toast.LENGTH_SHORT).show();

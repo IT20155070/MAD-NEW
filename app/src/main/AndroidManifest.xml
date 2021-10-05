@@ -12,13 +12,18 @@
         android:theme="@style/Theme.MADNEW">
 
 
-        <activity android:name=".PrivacyPolicy">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".signin"/>
+        <activity android:name=".signup"/>
+        <activity android:name=".Home"/>
+        <activity android:name=".Rental"/>
+        <activity android:name=".RCheckout"/>
     </application>
 
 </manifest>
